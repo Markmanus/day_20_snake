@@ -19,6 +19,7 @@ for position in starting_positions:
     new_segment.penup()
     new_segment.goto(position)
     segments.append(new_segment)
+    print(new_segment)
 
 
 
